@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.parent
+		{
+			height: 50px;
+			width: 100px;
+			background: lightblue;
+			margin: 100px auto;
+			text-align: center;
+			line-height: 50px;
+			border-radius: 30px;
+			position: relative;
+
+			overflow: hidden;
+			z-index: 0;
+
+
+
+		}
+		.effect
+		{
+			height: 100px;
+			width: 200px;
+			background: linear-gradient(orange,blue);
+			position: absolute;
+			top: 0;
+			left:-200%;
+			z-index: -5;
+
+		}
+		.parent:hover .effect
+		{
+			left: 0;
+			transition: 1s;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">Hover Me
+		<div class="effect"></div>
+		
+	</div>
+
+</body>
+</html>
