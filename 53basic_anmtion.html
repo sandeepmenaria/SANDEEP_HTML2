@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+
 	<style type="text/css">
-		div
+		body{
+			background: url(https://i.pinimg.com/736x/b7/77/2e/b7772eba2e8829db5cdc82134d6acf48.jpg);
+		}
+		div 
 		{
 			height: 200px;
 			width: 200px;
 			background: gray;
-			transition: 3s;
-			animation-name: sandeep;
-			animation-direction: 1s;
-			animation-iteration-count: 2;
+			transition: 4s;
 
+		
+
+			animation:sandeep 3s infinite;
+			
 		}
-		/*div:hover
-		{
-			transform: translate(100px,200px) scale(0.5);
-			transform: rotateX(150deg);
-		}*/
+
+		
+
 		@keyframes sandeep
 		{
-			10%{background: blue;}
-			20%{background:url(https://images4.alphacoders.com/321/thumb-1920-32154.jpg);}
-			30%{background: blue;}
+			0%{background: orange;}
+			20%{background: url(https://i.pinimg.com/736x/b7/77/2e/b7772eba2e8829db5cdc82134d6acf48.jpg);
+				background-size: 100% 100%}
+			40%{background: linear-gradient(red,gray);}
+			60%{background: blue;height: 10px;width: 10px}
+			80%{background: gray;height: 200px;width: 200px;border-radius: 50%}
+			
+			100%{background: red}
 		}
-		
+
+
 	</style>
 </head>
 <body>
+
 	<div>
 		
 	</div>

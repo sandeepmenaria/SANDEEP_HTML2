@@ -1,0 +1,168 @@
+
+.main
+{
+	height: 150px;
+	width: 100%;
+	
+	box-shadow: 0 0 15px black;
+	display: flex;
+	text-align: center;
+	line-height: 150px;
+
+}
+
+
+.main .Serach
+{
+	height: 150px;
+	width:35%;
+	background: #fff;
+}
+.main .Serach button
+{
+	height: 35%;
+	width: 12%;
+	background: #2fdab8;
+	outline: none;
+	border: none;
+}
+.main .Serach input
+{
+	height: 50px;
+	width: 70%;
+	border:1px solid lightgray;
+
+}
+.main .Serach input:focus
+{
+	outline: none;
+	font-size: 15px;
+
+
+}
+.main .Serach input::placeholder
+{
+font-size: 25px;
+letter-spacing: 2px;
+
+}
+
+.main .logo
+{
+	height: 150px;
+	width:35%;
+	
+}
+.main .logo .logotext
+{
+	font-size: 50px;
+
+    
+	margin: 0;
+}
+.main .logo i
+{color: #2fdab8;
+	font-size: 40px;
+ position: absolute;
+ top: 17%;
+ left: 58%;
+}
+.main .logo span
+{
+	background: black;
+	color: #fff;
+}
+.main .social
+{
+	height: 150px;
+	width:35%;
+	color: gray;
+	letter-spacing: 2px;
+}
+.main .social i
+{
+	color: #fff;
+}
+.fa-facebook
+{
+background: blue;
+padding: 12px;
+}
+.fa-twitter
+{
+background: #1da1f2;
+padding: 12px;
+}
+.fa-square-instagram
+{
+background: #f46f30;
+padding: 12px;
+}
+.fa-linkedin
+{
+background:#0a66c2;
+padding: 12px;
+}
+.sandeep
+{
+	height: 40px;
+	width: 100%;
+	background: black;
+	color: white;
+	position: relative;
+	
+
+}
+.sandeep ul
+{
+	margin-left: 10PX;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 12px;
+
+}
+
+      
+
+.nav
+		{
+			height: 80px;
+			width: 100%;
+			background: black;
+		}
+		ul
+		{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			position: absolute;
+
+		}
+		ul li
+		{
+			float: left;
+			margin-top:20px;
+		}
+		ul li a
+		{
+			width: 150px;
+			color: white;
+			display: block;
+			text-decoration: none;
+			font-size: 20px;
+			text-align: center;
+			padding: 10px;
+			font-family: 
+
+
+		}
+		a:hover
+		{
+			background: orange;
+		}
+		ul li ul li
+		{
+			float: none;
+		}
